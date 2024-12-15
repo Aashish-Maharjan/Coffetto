@@ -5,6 +5,7 @@ import ProductSection from "./components/ProductSection";
 import HistorySection from "./components/HistorySection";
 import StepsSection from "./components/StepsSection";
 import NewsletterSection from "./components/NewsletterSection";
+import QuoteSection from "./components/QuoteSection";
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <ProductSection />
       <HistorySection/> 
       <StepsSection />
+      <QuoteSection/>
       <NewsletterSection />
     </div>
   );
