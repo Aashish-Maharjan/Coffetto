@@ -1,13 +1,22 @@
-import React from 'react';
-import './App.css';
-import Dashboard from './components/pages/Dashboard';
+import React from "react";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import ProductSection from "./components/ProductSection";
+import HistorySection from "./components/HistorySection";
+import StepsSection from "./components/StepsSection";
+import NewsletterSection from "./components/NewsletterSection";
 
-
-function App() {
+const App: React.FC = () => {
   return (
-    <Dashboard />
-    
+    <div className="bg-[#3a1f1f]">
+      <Header/>
+       <HeroSection />
+      <ProductSection />
+      <HistorySection/> 
+      <StepsSection />
+      <NewsletterSection />
+    </div>
   );
-}
+};
 
 export default App;
